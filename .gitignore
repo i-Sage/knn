@@ -1,0 +1,33 @@
+# Ignore compiled object files and executables
+*.o
+*.out
+*.exe
+
+# Ignore build directories
+build/
+bin/
+
+# Ignore generated files or directories by IDEs or editors
+.vscode/
+.idea/
+*.suo
+*.user
+*.sdf
+*.opensdf
+*.sln.docstates
+
+# Ignore dependency directories or files
+# For example, if you're using CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Ignore generated documentation
+doc/
+
+# Ignore any custom or generated files
+# Adjust/add more as per your project's needs
+.cache/
+
+data_set/
